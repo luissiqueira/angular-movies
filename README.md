@@ -2,6 +2,10 @@
 
 A sample project made in angular to show series and movies.
 
+## Used libs
+
+- [Angular Material](https://material.angularjs.org/latest/)
+- [AngularUI Router](https://github.com/angular-ui/ui-router)
 
 ## Serve with Python
 
