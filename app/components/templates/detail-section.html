@@ -1,0 +1,14 @@
+<md-list flex ng-controller="DetailSectionController as controller">
+    <h2> {{section.name}} </h2>
+
+    <md-list-item ng-repeat="movie in section.items" class="md-2-line"
+                  ng-click="controller.showMovie(movie)">
+        <img ng-src="{{movie.image}}" class="md-avatar" alt="{{movie.name}}" />
+
+        <div class="md-list-item-text" layout="column">
+            <h3>{{ movie.name }}</h3>
+            <h4>{{ movie.year }}</h4>
+        </div>
+
+    </md-list-item>
+</md-list>

@@ -1,0 +1,74 @@
+md-grid-list {
+    margin: 8px;
+}
+
+.gray {
+    background: #f5f5f5;
+}
+
+.green {
+    background: #b9f6ca;
+}
+
+.yellow {
+    background: #ffff8d;
+}
+
+.blue {
+    background: #84ffff;
+}
+
+.purple {
+    background: #b388ff;
+}
+
+.red {
+    background: #ff8a80;
+}
+
+md-grid-tile md-list {
+    height: 100%;
+    width: 100%;
+}
+
+ul p, ul md-list-item div {
+    cursor: pointer;
+}
+
+ul p:hover {
+    background: rgba(158,158,158,0.2);
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul p {
+    padding: 12px 0 12px 16px;
+    margin: 0;
+}
+
+ul md-list-item div {
+    padding-left: 16px;
+}
+
+.page-container {
+    min-height: 80%;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.default-movie .md-subheader-content {
+    text-align: center;
+}
+
+*[href*='#'] {
+    cursor: pointer;
+}
+
+img.detail-movie {
+    width: 200px;
+}
