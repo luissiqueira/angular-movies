@@ -3,10 +3,10 @@
     "name": "Séries",
     "items": [
       {
-        "name": "The OA",
-        "image": "http://www.gstatic.com/tv/thumb/tvbanners/13606482/p13606482_b_v8_aa.jpg",
-        "year": "2016",
-        "premise": "The OA é uma websérie americana de drama, suspense e ficção científica, criada e produzida por Brit Marling e Zal Batmanglij, sendo sua terceira colaboração, e distribuída mundialmente pela Netflix."
+        "name": "Once Upon a Time",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Once_Upon_a_Time_Season_1.jpg",
+        "year": "2011",
+        "premise": "Once Upon a Time is an American fairy tale television series that premiered on October 23, 2011, on ABC. The show takes place in the fictional seaside town of Storybrooke, Maine, whose residents are characters from various fairy tales transported to the \"real world\" town and robbed of their real memories by a powerful curse."
       },
       {
         "name": "The OA",
@@ -20,10 +20,16 @@
     "name": "Filmes",
     "items": [
       {
+        "name": "Fracture",
+        "image": "http://www.imfdb.org/images/thumb/6/6b/Fracture2007.jpg/300px-Fracture2007.jpg",
+        "year": "2007",
+        "premise": "Fracture is a 2007 American-German legal drama film, starring Anthony Hopkins and Ryan Gosling, and directed by Gregory Hoblit. It is the story of a man who shoots his unfaithful wife, placing her into a coma, and who then engages in a battle of wits with a young assistant district attorney."
+      },
+      {
         "name": "iBoy",
         "image": "http://www.gstatic.com/tv/thumb/movieposters/13681297/p13681297_p_v8_aa.jpg",
         "year": "2017",
-        "premise": "iBoy é um filme britânico de 2017, dirigido por Adam Randall, protagonizado por Bill Milner e Maisie Williams[1], roteirizado por Joe Barton, baseado no livro de mesmo nome de Kevin Brooks, lançado mundialmente online pelo serviço de streaming Netflix, no dia 27 de janeiro de 2017."
+        "premise": "iBoy is a British science-fiction teen thriller film on Netflix, starring Bill Milner and Maisie Williams, based on the book of the same name by Kevin Brooks."
       }
     ]
   }
