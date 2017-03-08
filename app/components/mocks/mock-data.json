@@ -1,18 +1,18 @@
 [
   {
-    "name": "Séries",
+    "name": "Animes",
     "items": [
       {
-        "name": "Once Upon a Time",
-        "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Once_Upon_a_Time_Season_1.jpg",
-        "year": "2011",
-        "premise": "Once Upon a Time is an American fairy tale television series that premiered on October 23, 2011, on ABC. The show takes place in the fictional seaside town of Storybrooke, Maine, whose residents are characters from various fairy tales transported to the \"real world\" town and robbed of their real memories by a powerful curse."
+        "name": "Captain Tsubasa",
+        "image": "https://myanimelist.cdn-dena.com/images/anime/1/2245.jpg",
+        "year": "1981",
+        "premise": "The series is characterized by dynamic and exciting football moves, often stylish and implausible. The plot focuses on Tsubasa's relationship with his friends, rivalry with his opponents, training, competition, and the action and outcome of each football match."
       },
       {
-        "name": "The OA",
-        "image": "http://www.gstatic.com/tv/thumb/tvbanners/13606482/p13606482_b_v8_aa.jpg",
-        "year": "2016",
-        "premise": "The OA é uma websérie americana de drama, suspense e ficção científica, criada e produzida por Brit Marling e Zal Batmanglij, sendo sua terceira colaboração, e distribuída mundialmente pela Netflix."
+        "name": "Dragon Ball Z",
+        "image": "http://www.gstatic.com/tv/thumb/tvbanners/10420628/p10420628_b_v8_aa.jpg",
+        "year": "1989",
+        "premise": "Dragon Ball Z follows the adventures of the protagonist Goku who, along with his companions, defends the Earth against an assortment of villains ranging from intergalactic space fighters and conquerors, unnaturally powerful androids and nearly indestructible creatures."
       }
     ]
   },
@@ -30,6 +30,23 @@
         "image": "http://www.gstatic.com/tv/thumb/movieposters/13681297/p13681297_p_v8_aa.jpg",
         "year": "2017",
         "premise": "iBoy is a British science-fiction teen thriller film on Netflix, starring Bill Milner and Maisie Williams, based on the book of the same name by Kevin Brooks."
+      }
+    ]
+  },
+  {
+    "name": "Séries",
+    "items": [
+      {
+        "name": "Once Upon a Time",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Once_Upon_a_Time_Season_1.jpg",
+        "year": "2011",
+        "premise": "Once Upon a Time is an American fairy tale television series that premiered on October 23, 2011, on ABC. The show takes place in the fictional seaside town of Storybrooke, Maine, whose residents are characters from various fairy tales transported to the \"real world\" town and robbed of their real memories by a powerful curse."
+      },
+      {
+        "name": "The OA",
+        "image": "http://www.gstatic.com/tv/thumb/tvbanners/13606482/p13606482_b_v8_aa.jpg",
+        "year": "2016",
+        "premise": "The OA é uma websérie americana de drama, suspense e ficção científica, criada e produzida por Brit Marling e Zal Batmanglij, sendo sua terceira colaboração, e distribuída mundialmente pela Netflix."
       }
     ]
   }

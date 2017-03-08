@@ -2,7 +2,7 @@
 <html lang="pt-br" ng-app="movies">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Filmes e séries</title>
     <link rel="stylesheet" href="styles/angular-material.min.css">
     <link rel="stylesheet" href="styles/app.css">
 
@@ -24,22 +24,28 @@
 
 <md-toolbar class="md-hue-2">
     <div class="md-toolbar-tools">
-        <h2 ui-sref="default">Filmes e Séries!</h2>
+        <h2 flex md-truncate ui-sref="default">Filmes e Séries!</h2>
+
+        <md-button class="md-icon-button"
+                   aria-label="GitHub"
+                   ng-href="https://github.com/luissiqueira/angular-movies"
+                   target="_blank">
+            <img ng-src="images/github.png" />
+        </md-button>
     </div>
 </md-toolbar>
 
-<div layout="row" layout-fill>
+<div layout="row" layout-fill class="mh-80">
     <section layout="column" layout-padding flex="25">
         <div class="gray page-container">
             <md-list>
                 <md-subheader>Categorias</md-subheader>
-                <md-divider></md-divider>
 
                 <ul ng-repeat="category in categories">
                     <p ng-click="movieCtrl.showDetailSection(category)"> {{ category.name }} </p>
 
                     <md-list-item ng-repeat="movie in category.items" ng-click="movieCtrl.showDetail(movie)">
-                        <img ng-src="{{movie.image}}" class="md-avatar" alt="{{movie.name}}" />
+                        <img ng-src="{{movie.image}}" class="md-avatar" alt="{{movie.name}}"/>
                         <small>{{ movie.name }}</small>
                     </md-list-item>
                 </ul>
@@ -52,6 +58,18 @@
             <ui-view></ui-view>
         </div>
     </section>
+</div>
+
+<div layout="row" layout-fill class="h-80px">
+    <footer class="gray layout-align-center" flex layout-padding>
+        <p>
+            <small>Luis Siqueira.</small>
+            <md-button class="md-primary"
+                       ng-href="https://github.com/luissiqueira/angular-movies"
+                       target="_blank">View in GitHub.
+            </md-button>
+        </p>
+    </footer>
 </div>
 
 </body>
