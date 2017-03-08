@@ -17,6 +17,6 @@ $ python -m SimpleHTTPServer 8000
 
 ## Screens
 
-![Index sreen](screens/screen_01.png "Index screen")
+![Index sreen](screens/screen_home.png "Index screen")
 
-![Movie screen](screens/screen_02.png "Movie screen")
+![Movie screen](screens/screen_item.png "Movie screen")
