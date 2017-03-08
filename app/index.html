@@ -15,9 +15,12 @@
 
     <script src="components/module/app.js"></script>
     <script src="components/services/http.service.js"></script>
+
     <script src="components/controllers/movie.controller.js"></script>
     <script src="components/controllers/detailmovie.controller.js"></script>
     <script src="components/controllers/detailsection.controller.js"></script>
+
+    <script src="components/directives/movie-display/movie.display.directive.js"></script>
 
 </head>
 <body ng-controller="MovieController as movieCtrl">
@@ -39,8 +42,6 @@
     <section layout="column" layout-padding flex="25">
         <div class="gray page-container">
             <md-list>
-                <md-subheader>Categorias</md-subheader>
-
                 <ul ng-repeat="category in categories">
                     <p ng-click="movieCtrl.showDetailSection(category)"> {{ category.name }} </p>
 
