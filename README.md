@@ -2,6 +2,10 @@
 
 A sample project made in angular to show series and movies.
 
+## Link on GitHub Pages
+
+https://luissiqueira.github.io/angular-movies/app/#!/
+
 ## Used libs
 
 - [Angular Material](https://material.angularjs.org/latest/)
