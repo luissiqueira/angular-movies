@@ -1,6 +1,12 @@
 (function () {
     angular
         .module('movies', ['ui.router', 'ngMaterial'])
+        .constant('ROUTES', {
+            GIT_HUB: 'https://github.com/luissiqueira/angular-movies'
+        })
+        .run(function ($rootScope, ROUTES) {
+            $rootScope.ROUTES = ROUTES;
+        })
         .config(function ($stateProvider, $urlRouterProvider) {
             var empty = {
                 name: 'default',
